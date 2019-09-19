@@ -1,6 +1,6 @@
 {
   "name": "react-motion",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "A spring that solves your animation problems.",
   "main": "dist/react-motion.cjs.js",
   "module": "dist/react-motion.esm.js",
@@ -67,7 +67,7 @@
     "build-demos": "webpack",
     "lint": "eslint --ext .js,.jsx .",
     "flow_check": "flow check",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "test": "cross-env NODE_ENV=test karma start ./karma.conf.js --single-run",
     "test:travis": "cross-env NODE_ENV=test karma start ./karma.conf.js --single-run",
     "test:dev": "cross-env NODE_ENV=test karma start ./karma.conf.js --no-single-run --auto-watch",
@@ -87,7 +87,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chenglou/react-motion.git"
+    "url": "https://github.com/lexithium/react-motion.git"
   },
   "keywords": [
     "react",
